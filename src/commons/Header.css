@@ -1,0 +1,64 @@
+#logo_header{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: -50px;
+    left: -25px;
+    display: flex;
+    padding: 10px;
+    background-color: #1CCFC9;
+    border-radius: 50%;
+    border: 5px solid white;
+    align-items: end;
+    justify-content: end;
+    box-shadow: 0 5px 10px #0000007c;
+    z-index: 9999;
+}
+
+#logo_header img{
+    height: 50%;
+    padding-bottom: 30px;
+    padding-right: 15px;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #222720;
+    box-shadow: 0 5px 10px #0000007c;
+    z-index: 9998;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    
+}
+
+header li{
+    margin: 0 60px;
+    font-size: 1.2rem;
+}
+
+.nav_button{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_button:hover{
+    color: #1CCFC9;
+}
